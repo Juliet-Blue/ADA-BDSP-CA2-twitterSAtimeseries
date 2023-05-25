@@ -1,2 +1,0 @@
-,index,insert average_latency,insert 95_latency,insert 99_latency,cleanup average_latency,cleanup 95_latency,cleanup 99_latency,overall runtime(ms),overall throughput(ops/sec)
-0,outputMYSQL_workloadd.csv,7345.666,10471.0,16431.0,2199.0,2199.0,2199.0,8684.0,115.15430677107324
