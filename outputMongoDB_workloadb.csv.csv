@@ -1,0 +1,2 @@
+,index,insert average_latency,insert 95_latency,insert 99_latency,cleanup average_latency,cleanup 95_latency,cleanup 99_latency,overall runtime(ms),overall throughput(ops/sec)
+0,outputMongoDB_workloadb.csv,964.21,1084.0,4191.0,2929.0,2929.0,2929.0,2102.0,475.7373929590866
