@@ -1,0 +1,27 @@
+/usr/bin/java  -classpath /home/hduser/ycsb-0.17.0/conf:/home/hduser/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/hduser/ycsb-0.17.0/lib/core-0.17.0.jar:/home/hduser/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/hduser/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/hduser/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/hduser/ycsb-0.17.0/lib/mysql-connector-j-8.0.32.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/conf:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/commons-collections-3.2.1.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/commons-lang-2.4.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/commons-pool-1.5.4.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/geronimo-jms_1.1_spec-1.1.1.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/geronimo-jta_1.1_spec-1.1.1.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/jdbc-binding-0.17.0.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/openjpa-jdbc-2.1.1.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/openjpa-kernel-2.1.1.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/openjpa-lib-2.1.1.jar:/home/hduser/ycsb-0.17.0/jdbc-binding/lib/serp-1.13.1.jar site.ycsb.Client -load -db site.ycsb.db.JdbcDBClient -P /home/hduser/ycsb-0.17.0/jdbc-binding/conf/db.properties -P /home/hduser/ycsb-0.17.0/workloads/workloadb
+Adding shard node URL: jdbc:mysql://localhost:3306/BenchTest
+Using shards: 1, batchSize:-1, fetchSize: -1
+[OVERALL], RunTime(ms), 8304
+[OVERALL], Throughput(ops/sec), 120.42389210019267
+[TOTAL_GCS_PS_Scavenge], Count, 3
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 32
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3853564547206166
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 32
+[TOTAL_GC_TIME_%], Time(%), 0.3853564547206166
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2161.0
+[CLEANUP], MinLatency(us), 2160
+[CLEANUP], MaxLatency(us), 2161
+[CLEANUP], 95thPercentileLatency(us), 2161
+[CLEANUP], 99thPercentileLatency(us), 2161
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 6894.304
+[INSERT], MinLatency(us), 4172
+[INSERT], MaxLatency(us), 112063
+[INSERT], 95thPercentileLatency(us), 9863
+[INSERT], 99thPercentileLatency(us), 14927
+[INSERT], Return=OK, 1000

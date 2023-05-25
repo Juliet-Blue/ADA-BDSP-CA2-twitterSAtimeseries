@@ -1,0 +1,2 @@
+use ycsb
+db.dropDatabase()
